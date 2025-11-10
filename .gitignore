@@ -1,0 +1,8 @@
+# Data and datasets
+data/
+
+# Models checkpoints
+checkpoints/
+
+# Python cache files
+__pycache__/

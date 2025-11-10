@@ -1,0 +1,15 @@
+sequence_length: 256
+embedding_dim: 512
+encoder:
+  n_blocks: 6
+  num_heads: 8
+  head_size: 64
+  value_size: 64
+  ff_hidden_dim: 2048
+decoder:
+  n_blocks: 6
+  num_heads: 8
+  head_size: 64
+  value_size: 64
+  ff_hidden_dim: 2048
+dropout_rate: 0.1

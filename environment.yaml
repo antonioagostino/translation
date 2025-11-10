@@ -1,0 +1,9 @@
+name: translation
+channels:
+  - conda-forge
+dependencies:
+  - pip:
+      - numpy
+      - pandas
+      - torch
+      - tqdm
