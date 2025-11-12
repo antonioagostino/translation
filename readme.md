@@ -26,3 +26,5 @@ Honestly, I do not want to maintain this repo, and since there a lot of implemen
 I leave here the link to download the last checkpoint of the training you can see in the plot above: [Google Drive Link](https://drive.google.com/file/d/17mp0vSYvt2g24h23903qNfRuRkSRljaD/view?usp=sharing). Just download it and run the *src/translation.py* script.
 
 Enjoy it!
+
+PS: just a small note about the tokenizer, since I wanted to code it in pure PyTorch and from scratch, I didn't want to use *tiktoken* or other BPE or WordPiece tokenizers. The project is very small, so I think it was enough to code a simple character-level tokenizer with some special tokens.
