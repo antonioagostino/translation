@@ -27,4 +27,4 @@ I leave here the link to download the last checkpoint of the training you can se
 
 Enjoy it!
 
-PS: just a small note about the tokenizer, since I wanted to code it in pure PyTorch and from scratch, I didn't want to use *tiktoken* or other BPE or WordPiece tokenizers. The project is very small, so I think it was enough to code a simple character-level tokenizer with some special tokens.
+PS: just a small note about the tokenizer, since I wanted to code it in pure PyTorch and from scratch, I didn't want to use *tiktoken* or other BPE or WordPiece tokenizers. The project is very small, so I thought it was enough to code a simple character-level tokenizer with some special tokens.
